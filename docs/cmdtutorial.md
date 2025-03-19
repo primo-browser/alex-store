@@ -81,7 +81,9 @@ changing the default behavior of the program internally, in ways that are not al
   ```cmd
   PrimoBrowser.exe --no-updates --enable-logging
   (replace with "PrimoBeta" as needed)
-  
+  ```
+
+  ```cmd
   You can also use the full path:
   %LOCALAPPDATA%\PrimoBrowser\Application\PrimoBrowser.exe --no-updates --enable-logging
   ```
