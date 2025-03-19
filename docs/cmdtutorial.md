@@ -67,11 +67,11 @@ changing the default behavior of the program internally, in ways that are not al
 ### Using commandline flags for testing
   Now that you know how to do it, multiple command line flags can be appended. Some useful ones that we want all VA's to know how to use is:
 
-  __&#35; Built in Chromium flags inherited by Primo__  
+  __&#35; Built in flags (Chromium has them)__  
   `--enable-logging`         | Enable logging to a file, by default `chrome_debug.log`, saved in the User Data directory  
   `--enable-logging=stderr`  | Enable logging to the console. You will be able to see live, realtime output in the console of command prompt as the browser is running.
 
-  __&#35; Primo-specific flags I've coded in__  
+  __&#35; Primo-specific flags we've coded in__  
   `--verbose`                | Enable verbose logging (only useful with one of the above)  
   `--no-updates`             | Disable auto-updater functionality, useful for keeping a build at the same revision, even when re-launching.  
   `--no-proxy`               | Disable proxy functionality, disable log-in.  
