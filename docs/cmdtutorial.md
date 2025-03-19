@@ -10,11 +10,11 @@ changing the default behavior of the program internally, in ways that are not al
 4. The available command line arguments, their syntax, and what they can/should be used for.
 
 ### Launching Command Prompt
-  There are many ways to do this, and a whole host of ways can be read here > https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/
-  However, the easiest way is simply opening the Start Menu and searching for "Command Prompt" or "cmd.exe"
-  The icon looks like this: <img src="https://github.com/primo-browser/alex-store/blob/main/imgs/cmd.png" width="42">
+  There are many ways to do this, and a whole host of ways can be read here > https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10.  
+  However, the easiest way is simply opening the Start Menu and searching for "Command Prompt" or "cmd.exe".  
+  The icon looks like this: <img src="https://github.com/primo-browser/alex-store/blob/main/imgs/cmd.png" width="42">  
   When opened, you will be greeted by a black screen with a blinking cursor. You can type commands in here and they will be run, if the system can
-  find the .exe of it.
+  find the __.exe__ of it.
 
 ### Changing to different folders (directories) in Command Prompt
   However, to run Primo, we need to go into the folder/directory that it is installed in. We can use the `cd` command for this (which stands for "change directory").
@@ -46,7 +46,7 @@ changing the default behavior of the program internally, in ways that are not al
   PrimoBrowser.exe
   (or PrimoBeta.exe)
   ```
-  (and press Enter)
+  (and press Enter) (If you haven't noticed by now, every command you type into cmd.exe is not actually run until you press Enter).
 
   You should see the browser open, or open a new Window if it was already launched.
   Let's close that for now.
@@ -59,7 +59,6 @@ changing the default behavior of the program internally, in ways that are not al
   ```cmd
   PrimoBrowser.exe --no-proxy
   ```
-  (and press Enter) (If you haven't noticed by now, every command you type into cmd.exe is not actually run until you press Enter).
 
   The browser should launch, however, you will notice that the Proxy extension is missing, and the browser does not ask for you to log in.  
   Launching it with this flag has disabled the proxy internally!  
