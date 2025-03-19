@@ -1,6 +1,6 @@
 ## Steps to run PrimoBrowser or PrimoBeta from the command line (cmd.exe)
 
-__&ndash; Synopsis:__ Sometimes, in order to test/debug issues, or control certain behavior, we want to run Primo from the commandline.
+__&ndash; Synopsis:__ Sometimes, in order to test/debug issues, or control certain behavior, we want to run Primo from the command line.
 This is also known as Command Prompt, cmd.exe, or the terminal. It allows us to run a program with a set of flags or "arguments",
 changing the default behavior of the program internally, in ways that are not allowed or controllable through the UI. This document describes:
 
@@ -51,8 +51,8 @@ changing the default behavior of the program internally, in ways that are not al
   You should see the browser open, or open a new Window if it was already launched.
   Let's close that for now.
 
-### Running Primo with commandline flags
-  When running a program, you can add "flags" to it, which modify the programs behavior at runtime.
+### Running Primo with command line flags
+  When running a program, you can add "flags" to it, which modify the program's behavior at runtime.
 
   Try running this:
 
@@ -62,7 +62,7 @@ changing the default behavior of the program internally, in ways that are not al
 
   The browser should launch, however, you will notice that the Proxy extension is missing, and the browser does not ask for you to log in.  
   Launching it with this flag has disabled the proxy internally!  
-  __NOTE:__ Every flag is prepended with "--".
+  __NOTE:__ Every flag is prepended with "__--__".
 
 ### Using commandline flags for testing
   Now that you know how to do it, multiple command line flags can be appended. Some useful ones that we want all VA's to know how to use is:
