@@ -12,4 +12,4 @@ changing the default behavior of the program internally, in ways that are not al
 ### Launching Command Prompt
   There are many ways to do this, and a whole host of ways can be read here > https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/
   However, the easiest way is simply opening the Start Menu and searching for "Command Prompt" or "cmd.exe"
-  The icon looks like this
+  The icon looks like this: <img src
