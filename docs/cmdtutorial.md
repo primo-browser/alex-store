@@ -1,8 +1,8 @@
 ## Steps to run PrimoBrowser or PrimoBeta from the command line (cmd.exe)
 
- - Synopsis: Sometimes, in order to test/debug issues, or control certain behavior, we want to run Primo from the commandline.
+__&ndash; Synopsis:__ Sometimes, in order to test/debug issues, or control certain behavior, we want to run Primo from the commandline.
 This is also known as Command Prompt, cmd.exe, or the terminal. It allows us to run a program with a set of flags or "arguments",
-changing the default behavior of the program internally, in ways that are not allowed or controllable through the UI. This document describes
+changing the default behavior of the program internally, in ways that are not allowed or controllable through the UI. This document describes:
 
 1. How to launch cmd.exe
 2. How to navigate to where PrimoBrowser (or PrimoBeta) is installed on your system.
