@@ -31,6 +31,9 @@ changing the default behavior of the program internally, in ways that are not al
   ```
   (and press Enter)
 
+  __IMPORTANT:__ If the full path to &#42;whatever&#42; contains any spaces (i.e. the "User Data" folder, or if your username has spaces), you *must* use quotes!  
+  For example: `cd "%LOCALAPPDATA%\PrimoBeta\Application"` or `cd "User Data"`.
+
   __Technical Note:__ `%LOCALAPPDATA%` is an alias for __C:\Users\\*$USERNAME*\AppData\Local__, and many of you will be familiar with this, since this is where
   the user data dir is stored as well. Specifically:
 
