@@ -6,6 +6,17 @@ This document describes how to allow them, and how to run them. You will need th
 
 ### 1. Opening PowerShell as administrator
  - To make changes to the policy, we must have privileges.  
- Search the Start Menu for "powershell". Note that there will be more than one entry. Do not select the "Windows Powershell (x86)", or any of the "ISE" ones. The first (and highlighted) result in this image is the correct one.  
+ Search the Start Menu for "powershell".  
+  Note that there will be more than one entry. Do not select the "Windows Powershell (x86)", or any of the "ISE" ones. The first (and highlighted) result in this image is the correct one.  
  Click "Run as Administrator" (Important).
- <img src="https://github.com/primo-browser/alex-store/blob/main/imgs/searching_for_powershell.png" width="200">
+ <img src="https://github.com/primo-browser/alex-store/blob/main/imgs/searching_for_powershell.png" width="500">
+
+### 2. Changing the execution policy
+ - Now we must allow running scripts on the machine.
+
+ ```cmd
+ Set-ExecutionPolicy RemoteSigned
+ ```
+ (and press Enter)
+
+ <img src="https://github.com/primo-browser/alex-store/blob/main/imgs/set_execution_policy.png" width="500">
