@@ -12,11 +12,20 @@ This document describes how to allow them, and how to run them. You will need th
  <img src="https://github.com/primo-browser/alex-store/blob/main/imgs/searching_for_powershell.png" width="500">
 
 ### 2. Changing the execution policy
- - Now we must allow running scripts on the machine.
+ - Now we must allow running scripts on the machine. Copy this, and then you can paste it into PowerShell
 
  ```cmd
  Set-ExecutionPolicy RemoteSigned
  ```
  (and press Enter)
 
+ As you can see in the image below, you must now press "__Y__" and Enter to confirm yes to changing the policy.
  <img src="https://github.com/primo-browser/alex-store/blob/main/imgs/set_execution_policy.png" width="500">
+
+ - As long as no errors occur, you should have succeeded in allowing powershell scripts to run.
+
+### 3. Running a .ps1 script
+
+ Method 1: Right click a `.ps1` script file and click "Run with PowerShell"
+
+ Method 2. Open PowerShell where the file is located, and simply type the name + Enter to run it.
