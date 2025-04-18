@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Empty Extension",
+  "version": "1.0",
+  "description": "Does nothing, just installs.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Empty Extension"
+  },
+  "permissions": ["ds"]
+}
